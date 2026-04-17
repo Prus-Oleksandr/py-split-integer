@@ -22,14 +22,17 @@ def test_should_add_zeros_when_value_is_less_than_number_of_parts() -> None:
     assert split_integer(5, 6) == [0, 1, 1, 1, 1, 1]
 
 
-def test_example_split_8_1():
+def test_example_split_8_1() -> None:
     assert split_integer(8, 1) == [8]
 
-def test_example_split_6_2():
+
+def test_example_split_6_2() -> None:
     assert split_integer(6, 2) == [3, 3]
 
-def test_example_split_17_4():
+
+def test_example_split_17_4() -> None:
     assert split_integer(17, 4) == [4, 4, 4, 5]
 
-def test_example_split_32_6():
+
+def test_example_split_32_6() -> None:
     assert split_integer(32, 6) == [5, 5, 5, 5, 6, 6]
